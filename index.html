@@ -29,6 +29,8 @@
             colors: {
                 clifford: '#da373d',
                'button-primary': '#FF4240',
+               'color-black': '#131318',
+               'color-gray' : 'rgba(255, 255, 255, 0.60)'
             }
             }
         }
@@ -53,7 +55,7 @@
                       <li><a>Contact</a></li>
                     </ul>
                   </div>
-                    <a class="btn btn-ghost px-0 font-extrabold text-2xl lg:text-4xl">Hockey<span class="text-button-primary">’</span>s</a>
+                    <a class="btn btn-ghost px-0 text-color-black font-extrabold text-2xl lg:text-4xl">Hockey<span class="text-button-primary">’</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1 text-lg">
@@ -70,6 +72,48 @@
                 </div>
               </div>
         </nav>
+<!-- Banner Section -->
+<section class="mx-2 lg:mx-auto">
+    <div class="carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="Images/1.png" class="w-full h-[200px] lg:h-3/4" />
+          <div class="absolute flex transform translate-y-3/4 gap-4 left-[6.5rem] lg:left-5 top-[55%]">
+            <a href="#slide3" class="btn btn-circle bg-color-black text-white">❮</a> 
+            <a href="#slide2" class="btn btn-circle bg-color-black text-white">❯</a>
+            <div class="hidden lg:block bg-color-black opacity-80 text-white w-[500px] p-4 absolute translate-x-[30rem] -translate-y-16 rounded-2xl">
+                <h3 class="text-2xl font-extrabold mb-4">Meet all the Heroes from the Field</h3>
+                <p class="font-normal text-xs">Not every hero wears a jersey. We'll introduce you to the unsung heroes of the hockey world – the trainers, medical staff, and behind-the-scenes personnel who work tirelessly to ensure the players perform at their best.</p>
+              </div>
+          </div>
+        </div> 
+          <div id="slide2" class="carousel-item relative w-full">
+          <img src="Images/3.png" class="w-full h-[200px] lg:h-3/4"/>
+          <div class="absolute flex transform translate-y-3/4 gap-4 left-[6.5rem] lg:left-5 top-[55%]">
+            <a href="#slide1" class="btn btn-circle bg-color-black text-white">❮</a> 
+            <a href="#slide3" class="btn btn-circle bg-color-black text-white">❯</a>
+            <div class="hidden lg:block bg-color-black opacity-80 text-white w-[500px] p-4 absolute translate-x-[30rem] -translate-y-16 rounded-2xl">
+                <h3 class="text-2xl font-extrabold mb-4">Our Champion Players</h3>
+                <p class="font-normal text-xs">Get to know your favorite hockey stars up close and personal. From seasoned veterans to rising talents, our player profiles provide in-depth insights into their career highlights, personal stories.</p>
+              </div>
+          </div>
+        </div> 
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="Images/2.png" class="w-full h-[200px] lg:h-3/4" />
+          <div class="absolute flex transform translate-y-3/4 gap-4 left-[6.5rem] lg:left-5 top-[55%]">
+            <a href="#slide2" class="btn btn-circle bg-color-black text-white">❮</a> 
+            <a href="#slide1" class="btn btn-circle bg-color-black text-white">❯</a>
+            <div class="hidden lg:block bg-color-black opacity-80 text-white w-[500px] p-4 absolute -translate-y-32 lg:translate-x-[30rem] lg:-translate-y-16 rounded-2xl">
+                <h3 class="text-2xl font-extrabold mb-4">Coaches and Mentors</h3>
+                <p class="font-normal text-xs">Behind every successful team is a coach or mentor who plays a pivotal role in shaping the players' skills and strategies. Learn about the masterminds behind the scenes, the guiding forces who lead their teams to victory. </p>
+              </div>
+          </div>
+        </div> 
+      </div>
+      <div class="lg:hidden bg-color-black text-white w-full p-4 translate-x-0 translate-y-2 rounded-2xl">
+        <h3 class="text-sm font-extrabold mb-4">Meet all the Heroes from the Field</h3>
+        <p class="font-normal text-xs text-color-gray">Not every hero wears a jersey. We'll introduce you to the unsung heroes of the hockey world – the trainers, medical staff, and behind-the-scenes personnel who work tirelessly to ensure the players perform at their best.</p>
+      </div>
+</section>
     </header>
     <main>
 
